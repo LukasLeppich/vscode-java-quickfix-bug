@@ -11,6 +11,8 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("/some-page")
 public class SomePage {
+    
+    String someString = "Escaped\\Test\\Path";
 
     @CheckedTemplate
     static class Templates {
